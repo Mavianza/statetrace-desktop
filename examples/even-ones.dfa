@@ -1,0 +1,11 @@
+# Bahasa: semua string biner dengan jumlah 1 genap
+name=Jumlah 1 genap
+states=genap,ganjil
+alphabet=0,1
+start=genap
+accept=genap
+
+genap,0=genap
+genap,1=ganjil
+ganjil,0=ganjil
+ganjil,1=genap
